@@ -1,101 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Charmin Princewill | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <!-- Hero Section -->
+
+  <!-- HERO -->
   <header class="hero">
     <div class="container">
-      <h1>Hi, I’m Charmin Princewill</h1>
-      <p>Python Backend Developer & Data Analyst — building APIs, databases, and interactive dashboards</p>
+      <h1>Charmin Princewill</h1>
+      <p>Python Backend Developer & Data Analyst</p>
+      <span>APIs • Databases • Interactive Dashboards</span>
     </div>
   </header>
 
-  <!-- Projects Section -->
+  <!-- PROJECTS -->
   <section class="projects">
     <div class="container">
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
 
-      <!-- Project 1: Interactive Dashboard -->
-      <div class="project-card">
-        <h3>Interactive Data Dashboard</h3>
-        <p><strong>Tech:</strong> Python, Pandas, Plotly/Dash, Streamlit</p>
-        <p><strong>Description:</strong> Data-driven dashboard to visualize metrics, explore datasets interactively, and generate insights.</p>
-        <p><strong>Highlights:</strong> Interactive charts, filters, drill-downs, data cleaning and transformation.</p>
-        <div class="project-media">
-          <img src="images/dashboard-screenshot1.png" alt="Dashboard Screenshot 1">
-          <img src="images/dashboard-screenshot2.png" alt="Dashboard Screenshot 2">
-          <!-- Optional video -->
-          <!-- <video controls>
+      <div class="project-grid">
+
+        <!-- DASHBOARD PROJECT -->
+        <div class="project-card">
+          <h3>Interactive Data Dashboard</h3>
+          <p class="tech">Python · Pandas · Plotly · Streamlit</p>
+          <p>
+            An interactive dashboard for data exploration, insights, and trend analysis.
+            Built with Pandas for data processing and Plotly/Streamlit for visualization.
+          </p>
+
+          <div class="media-grid">
+            <img src="images/dashboard1.png" alt="Dashboard Screenshot">
+            <img src="images/dashboard2.png" alt="Dashboard Screenshot">
+          </div>
+
+          <video controls>
             <source src="videos/dashboard-demo.mp4" type="video/mp4">
-          </video> -->
+          </video>
+
+          <span class="note">Demo shown via screenshots & screen recording</span>
         </div>
-      </div>
 
-      <!-- Project 2: Hospital Management System -->
-      <div class="project-card">
-        <h3>Hospital Management System</h3>
-        <p><strong>Tech:</strong> Python, Flask, MySQL, Bootstrap</p>
-        <p><strong>Description:</strong> Full-featured system for doctors to manage patient details, visits, and appointments.</p>
-        <p><strong>Highlights:</strong> CRUD operations, authentication, session management, relational database design.</p>
-        <p><strong>Links:</strong> 
-          <a href="YOUR_HOSPITAL_LIVE_LINK" target="_blank">Live Demo</a> | 
-          <a href="YOUR_HOSPITAL_GITHUB_LINK" target="_blank">GitHub Repo</a>
-        </p>
-      </div>
+        <!-- HOSPITAL SYSTEM -->
+        <div class="project-card">
+          <h3>Hospital Management System</h3>
+          <p class="tech">Python · Flask · MySQL · Bootstrap</p>
+          <p>
+            A real-world hospital system enabling doctors to manage patients,
+            visits, and appointments with secure authentication.
+          </p>
 
-      <!-- Project 3: LifeTracker -->
-      <div class="project-card">
-        <h3>LifeTracker</h3>
-        <p><strong>Tech:</strong> Python, Flask, SQLAlchemy/MySQL, Bootstrap</p>
-        <p><strong>Description:</strong> App to manage personal expenses, track habits, and monitor progress towards personal goals.</p>
-        <p><strong>Highlights:</strong> CRUD, data aggregation, dashboard summary, reporting.</p>
-        <p><strong>Links:</strong> 
-          <a href="YOUR_LIFETRACKER_LIVE_LINK" target="_blank">Live Demo</a> | 
-          <a href="YOUR_LIFETRACKER_GITHUB_LINK" target="_blank">GitHub Repo</a>
-        </p>
-      </div>
+          <ul>
+            <li>CRUD operations for patients & visits</li>
+            <li>Authentication & session handling</li>
+            <li>Relational database design</li>
+          </ul>
 
+          <div class="links">
+            <a href="YOUR_HOSPITAL_LIVE_LINK" target="_blank">Live Demo</a>
+            <a href="YOUR_HOSPITAL_GITHUB_LINK" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <!-- LIFETRACKER -->
+        <div class="project-card">
+          <h3>LifeTracker</h3>
+          <p class="tech">Python · Flask · SQLAlchemy · MySQL</p>
+          <p>
+            A personal productivity app for tracking expenses, habits,
+            and progress toward life goals.
+          </p>
+
+          <ul>
+            <li>Expense & habit tracking</li>
+            <li>Data aggregation & summaries</li>
+            <li>Backend-driven dashboards</li>
+          </ul>
+
+          <div class="links">
+            <a href="YOUR_LIFETRACKER_LIVE_LINK" target="_blank">Live Demo</a>
+            <a href="YOUR_LIFETRACKER_GITHUB_LINK" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- SKILLS -->
   <section class="skills">
     <div class="container">
-      <h2>Skills</h2>
-      <div class="skill-list">
-        <span>Python</span>
-        <span>FastAPI</span>
-        <span>Flask</span>
-        <span>MySQL</span>
-        <span>PostgreSQL</span>
-        <span>SQLAlchemy</span>
-        <span>REST APIs</span>
-        <span>JWT</span>
-        <span>Pandas</span>
-        <span>Plotly</span>
-        <span>Dash</span>
-        <span>Streamlit</span>
-        <span>Data Cleaning</span>
-        <span>Data Visualization</span>
+      <h2>Core Skills</h2>
+
+      <div class="skill-group">
+        <h4>Backend</h4>
+        <span>Python</span><span>FastAPI</span><span>Flask</span>
+        <span>MySQL</span><span>PostgreSQL</span>
+        <span>SQLAlchemy</span><span>REST APIs</span><span>JWT</span>
+      </div>
+
+      <div class="skill-group">
+        <h4>Data Analysis</h4>
+        <span>Pandas</span><span>NumPy</span><span>Plotly</span>
+        <span>Streamlit</span><span>Data Cleaning</span>
+        <span>Interactive Dashboards</span>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact">
+  <!-- CONTACT -->
+  <footer class="contact">
     <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/charmin16" target="_blank">charmin16</a></p>
-      <p>LinkedIn: <a href="YOUR_LINKEDIN" target="_blank">Your LinkedIn</a></p>
-      <p>I’m actively looking for remote Python Backend and Data Analysis roles.</p>
+      <h2>Let’s Connect</h2>
+      <p>📧 your.email@example.com</p>
+      <p>
+        <a href="https://github.com/charmin16" target="_blank">GitHub</a> ·
+        <a href="YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+      </p>
+      <p class="cta">Open to remote Python Backend & Data Analyst roles</p>
     </div>
-  </section>
+  </footer>
 
 </body>
 </html>
