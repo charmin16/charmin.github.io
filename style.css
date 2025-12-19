@@ -22,8 +22,10 @@ body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: var(--bg-light);
   color: var(--text-dark);
-  line-height: 1.65;
+  line-height: 1.7;
+  font-size: 16.5px;
 }
+
 
 body::before {
   content: "";
@@ -51,14 +53,13 @@ body::before {
   background: linear-gradient(135deg, #020617, #0f172a);
   color: #ffffff;
   text-align: center;
-  padding: 70px 20px 60px;
+  padding: 64px 20px 56px;
 }
 
 .hero h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 8px;
-  letter-spacing: -0.02em;
+  margin-bottom: 6px;
 }
 
 .hero p {
@@ -68,7 +69,7 @@ body::before {
 }
 
 .hero span {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #94a3b8;
 }
 
@@ -298,3 +299,39 @@ section h2::after {
     padding: 28px;
   }
 }
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 44px 16px 36px;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero span {
+    font-size: 0.9rem;
+  }
+}
+
+.about .container {
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+.projects .container {
+  padding-top: 40px;
+}
+
+.about-text {
+  max-width: 760px;
+  margin: auto;
+  text-align: center;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
